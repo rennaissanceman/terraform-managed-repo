@@ -1,7 +1,8 @@
 *.tfvars
 *.tfvars.json
 **/.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-.terraform.tfstate.lock.info
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/.terraform.tfstate.lock.info
 .idea/
+_local-state-backup/
