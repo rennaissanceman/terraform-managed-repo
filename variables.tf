@@ -19,5 +19,5 @@ variable "repository_description" {
 variable "publicly_visible" {
   description = "Whether the GitHub repository should be public"
   type        = bool
-  default     = false
+  default     = true
 }
